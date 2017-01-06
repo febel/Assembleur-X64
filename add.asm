@@ -26,3 +26,15 @@ additionne:
 	pop ecx
 	leave
 	ret
+;programme en C pour utiliser l'addition ci dessus, a ecrire dans un fichier séparé et a compiler avec GCC et le programme assembleur dans le meme repertoire
+;void additionne(int nb);
+;
+;int main()
+;{
+;	int i;
+;	for(i=0; i<10; i++)
+;	{
+;		additionne(i);
+;	}
+;	return 0;
+;}
